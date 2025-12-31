@@ -1,2 +1,1 @@
-# billsplitter
-It is a simple tool used to split a bill and prints who owes whom
+Bill Splitter is a clean, no-stress web app that helps friends, roommates, or teams split expenses fairly in seconds. Just enter the total bill, add participants, and the app instantly calculates who owes what with clear, accurate results. Designed with a simple interface and fast performance, it removes awkward math and confusion so you can focus on enjoying the moment, not settling accounts. Perfect for trips, dinners, and shared expenses, Bill Splitter makes fairness effortless.
