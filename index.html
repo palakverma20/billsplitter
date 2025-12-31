@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Slayers Bill Splitter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo flex">
+            <img src="logo.jpeg" alt="">
+            <h1 class="bug">Bug Slayers</h1>
+        </div>
+        <div class="text flex">
+            <ul class="flex">
+                <li id="home">Home</li>
+                <li id="about">About Us</li>
+                <li id="help">Help</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hide1">
+        <div class="box">
+            <div class="box1">WELCOME</div>
+            <div class="content">
+                <p>Confused who owes whom?</p>
+                <p>Try Bill Splitter by Bug Slayers!!</p>
+            </div>
+        </div>
+        <div class="input flex">
+            <div class="flex">
+                <span>Enter no. of people:</span>
+                <input type="text" id="people" placeholder="Enter in number:">
+            </div>
+            <button onclick="storeValue()" class="btn" id="first">Done</button>
+        </div>
+    </div>
+    <div class="hide2">
+        <div class="box2">
+            <div class="text2">
+                <div>
+                    <span>Enter Name:</span>
+                    <input type="text" id="name" placeholder="Name">
+                </div>
+                <div>
+                    <span>Enter Amount:</span>
+                    <input type="text" id="amount" placeholder="Amount">
+                </div>
+            </div>
+            <button class="btn" id="second">Next</button>
+        </div>
+    </div>
+    <div class="hide3">
+        <div class="box3">
+            <div class="hello"></div>
+            <!-- <p>Google Sheets link: <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam libero recusandae, molestiae consequuntur tempore dolore magnam veniam reprehenderit perspiciatis aliquid.</a></p> -->
+            <button class="btn" id="third">Close</button>
+        </div>
+    </div>
+    <div class="about">
+        <h1 class="heading1">About Us</h1>
+        <div class="hey">
+            <h1 class="heading2">Splitting bills, not friendships.</h1>
+            <p>We’ve all been there: the end of a great meal, trip, or group activity, followed by the awkward dance of "who owes who?" and the inevitable calculator struggle. We built Bug Slayers Bill Splitter to eliminate that stress entirely.</p>
+            <p>Our mission is simple: provide a fast, clean, and intuitive way to divide any group expense fairly and instantly. No sign-ups required, no confusing features—just clarity. Whether it's a simple dinner or a multi-currency group vacation, we ensure everyone knows where they stand, allowing you to get back to the fun part of life with friends and family.</p>
+            <p>Plus, you can refer to the attached google sheets link to have payment records at one page!</p>
+        </div>
+    </div>
+    <div class="help">
+        <h1 class="heading1">Help</h1>
+        <div class="hey">
+            <p><b>Step 1: </b>Enter total number of people(including those who didn't pay).</p>
+            <p><b>Step 2: </b>Enter name and corresponding payment of a person then click next to move on to the next person.</p>
+            <p><b>Step 3: </b>Our bill splitter displays the Result:</p> <p><b>The total expense and who owes whom.</b></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
